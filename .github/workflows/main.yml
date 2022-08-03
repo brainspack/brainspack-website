@@ -12,15 +12,6 @@ jobs:
      - name: Checkout
        uses: actions/checkout@v2
 
-     - name: Setup node
-       uses: actions/setup-node@v2
-
-     - name: Install dependencies
-       run: npm install
-
-     - name: Build static file
-       run: npm run build
-
      - name: Configure AWS Credentials
        uses: aws-actions/configure-aws-credentials@v1
        with:
@@ -29,4 +20,4 @@ jobs:
          aws-region: us-east-1
 
      - name: Deploy static site to S3 bucket
-       run: aws s3 sync ./build s3://www.brainspack.com
+       run: aws s3 sync ./ s3://www.brainspack.com
