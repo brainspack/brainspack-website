@@ -19,6 +19,7 @@
 | 
 |
 */
+
 @-moz-keyframes spin {
     100% {
         -moz-transform: rotate(360deg);
