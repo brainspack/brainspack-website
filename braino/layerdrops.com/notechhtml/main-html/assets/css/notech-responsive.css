@@ -1971,7 +1971,8 @@
     }
 
     .main-menu {
-        padding: 0 30px;
+        /* padding: 0 30px; */
+        padding:0 30px 0 0;
     }
 
     .main-menu__right {
@@ -1984,6 +1985,7 @@
 
     .main-menu__logo {
         margin-right: 0;
+        padding-right: 0px;
     }
 
     .main-menu__main-menu-box {
