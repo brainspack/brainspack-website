@@ -25,7 +25,8 @@
   --notech-white-rgb: 255, 255, 255;
   --notech-black: #1b1525;
   --notech-black-rgb: 27, 21, 37;
-  --notech-base: #6653e8;
+  /* --notech-base: #6653e8; */
+  --notech-base: #55AD88;
   --notech-base-rgb: 102, 83, 232;
   --notech-primary: #2be4ac;
   --notech-primary-rgb: 43, 228, 172;
@@ -1109,7 +1110,7 @@ ul {
 }
 
 .main-menu .mobile-nav__toggler {
-  font-size: 20px;
+  font-size: 25px;
   color: var(--notech-base);
   cursor: pointer;
   -webkit-transition: 500ms;
@@ -1377,7 +1378,7 @@ ul {
 }
 
 .mobile-nav__content .logo-box {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3709,7 +3710,7 @@ ul {
 }
 
 .tech-services__points li+li {
-  margin-top: 20px;
+  margin-top: 17px;
 }
 
 .tech-services__points li .icon {
@@ -4667,7 +4668,8 @@ ul {
 .footer-widget__logo {
   position: relative;
   display: inline-block;
-  padding-bottom: 26px;
+  /* padding-bottom: 26px; */
+  padding-bottom: 10px;
 }
 
 .footer-widget__about-text-box {
@@ -5057,6 +5059,10 @@ ul {
   margin-top: -50px;
   padding: 29px 70px 27px;
   z-index: 2;
+}
+.delivering-it__mobile-application{
+  padding:29px 67px 27px ;
+  
 }
 
 .delivering-it__content:after {
