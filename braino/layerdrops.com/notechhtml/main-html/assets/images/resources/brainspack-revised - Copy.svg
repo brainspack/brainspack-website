@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:#55AD88;}
 	.st1{fill:#0CC676;}
-	.st2{fill:black;}
+	.st2{fill:white;}
 	.st3{font-family:'ReemKufi-Regular';}
 	.st4{font-size:164.8064px;}
 </style>
@@ -148,9 +148,5 @@
 			c0.01,0.39,0.01,0.76,0.01,1.13C547,621.24,547,621.66,547,622.06z"/>
 	</g>
 </g>
-<<<<<<< HEAD
 <text transform="matrix(0.9676 0 0 1 646.2344 601.1953)"><tspan x="0" y="0" class="st2 st3 st4">B R A I N S </tspan><tspan x="840.45" y="0" class="st0 st3 st4">P </tspan><tspan x="950.08" y="0" class="st2 st3 st4">A C K</tspan></text>
-=======
-<text transform="matrix(0.9676 0 0 1 646.2344 601.1953)"><tspan x="0" y="0" class="st2 st3 st4">B R A I N S </tspan><tspan x="830.45" y="0" class="st0 st3 st4">P </tspan><tspan x="950.08" y="0" class="st2 st3 st4">A C K</tspan></text>
->>>>>>> 6e080863433cac9189e3d01d90a604187b41b643
 </svg>
