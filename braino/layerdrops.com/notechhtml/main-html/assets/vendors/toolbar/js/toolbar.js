@@ -33,11 +33,24 @@
     });
   }
 
-  if ($(".style-switcher").length) {
-    $("#switcher-toggler").on("click", function (e) {
-      e.preventDefault();
-      $(".style-switcher").toggleClass("active");
-    });
-  }
+  // if ($(".style-switcher").length) {
+  //   $("#switcher-toggler").on("click", function (e) {
+  //     e.preventDefault();
+  //     $(".style-switcher").toggleClass("active");
+  //   });
+  // }
 
+//   if($(".style-switcher").)
+//   $(document).ready(function () {
+                
+//     window.location.href="contact.html#link"
+// });
 })(jQuery);
+
+function myHash() {
+  $(document).ready(function () {
+            
+              window.location.href="contact.html#link"
+
+  });
+}

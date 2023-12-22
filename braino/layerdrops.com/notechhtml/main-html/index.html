@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home || Brainspack </title>
+    <title> Brainspack || Shaping the Future of Business with Web </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -65,15 +65,15 @@
 
 
     <!-- style switcher -->
-    <!-- <div class="style-switcher"> -->
-        <!-- <a href="#" id="switcher-toggler"><i class="fa fa-cog"></i></a> -->
+    <div class="style-switcher" onclick='myHash()'>
+        <a href="contact.html" id="switcher-toggler"><i class="fa fa-cog"></i></a>
         <!-- <h3>Layout Options</h3> -->
         <!-- <div class="layout-feature" id="colorMode"> -->
             <!-- <a href="#" class="dark-switcher" data-theme="notech-dark">Dark</a> -->
             <!-- <a href="#" class="light-switcher" data-theme="notech-light">Light</a> -->
             <!-- <button class="boxed-switcher">Boxed</button>/.ltr-switcher -->
         <!-- </div>/.language-feature -->
-    <!-- </div> -->
+    </div>
     <!-- end style switcher -->
 
 
@@ -248,7 +248,13 @@
                                 <li class="dropdown">
                                     <a href="services.html">Services</a>
                                     <ul>
-                                        <li><a href="web-development.html">Web Development</a></li>
+                                        <li class="dropdown"><a href="web-development.html">Web Development</a>
+                                            <ul>
+                                                <li><a href="mean.html">MEAN</a></li>
+                                                <li><a href="mern.html">MERN</a></li>
+                                                <li><a href="php.html">PHP</a></li>
+                                            </ul>
+                                            </li>
                                         <li><a href="ui-ux-designing.html">UI/UX designing</a></li>
                                         <li><a href="mobile-application.html">Mobile Application</a></li>
                                         <li><a href="digital-marketing.html">Digital marketing</a></li>
@@ -1497,7 +1503,11 @@
     <script src="assets/vendors/toolbar/js/jQuery.style.switcher.min.js"></script>
     <script src="assets/vendors/toolbar/js/toolbar.js"></script>
 
-
+<!-- <script>
+    const navigateContact = () => {
+        window.navi
+    }
+</script> -->
 </body>
 
 

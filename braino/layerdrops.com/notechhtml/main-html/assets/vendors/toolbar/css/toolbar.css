@@ -28,9 +28,9 @@
 	border-bottom-right-radius: var(--toolbar-border-radius);
 }
 
-.style-switcher.active {
+/* .style-switcher.active {
 	transform: translateX(0%);
-}
+} */
 
 .style-switcher h3 {
 	margin: 0;
