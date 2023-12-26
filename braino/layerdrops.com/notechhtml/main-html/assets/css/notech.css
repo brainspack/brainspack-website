@@ -16,6 +16,7 @@
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/
+
 :root {
   --notech-font: 'Kumbh Sans', sans-serif;
   --notech-reey-font: "reeyregular";
@@ -36,9 +37,137 @@
   --notech-bdr-color-rgb: 233, 233, 238;
 }
 
+
+/* ==============      NEW CHANGES   ==== */
+
+
+.content-first{
+  margin-bottom: 40px;
+}
+
+/* =============     END      ========= */
+
+/* ----------------------------------------------------------------- development-planing vertical ---------------------------------------------------------------------------------------- */
+.planing-img-container{
+  display: flex;
+  align-items: center;
+}
+.palning-img-vertical {
+  height: 400px;
+  margin-top: 80px;
+  overflow: hidden;
+}
+ .service-details__points_vertical li:before {
+   position: absolute;
+   top: 40px;
+   bottom: -37px;
+   left: 35px;
+   content: "";
+   z-index: -1;
+   transform: rotate(180deg);
+   width: 3px;
+   background-color: var(--notech-base);
+ }
+ .service-details__points_vertical {
+   position: relative;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   flex-direction: column;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+ }
+ .service-details__points_vertical li {
+   position: relative;
+   -webkit-box-flex: 0;
+   -ms-flex: 0 0 33.333333%;
+   flex: 0 0 33.333333%;
+   max-width: 60.333333%;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 30px;
+   display: flex;
+   gap: 20px;
+ }
+ .service-details__points_vertical li:last-child:before {
+   display: none;
+ }
+ .service-details__points_vertical li:hover .service-details__points-icon-vertical {
+   background-color: var(--notech-primary);
+ }
+ .service-details__points-icon-vertical {
+   height: 70px;
+   width: 70px;
+   background-color: var(--notech-base);
+   border-radius: 50%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
+ .service-details__points_vertical li:hover .service-details__points-icon-vertical {
+   background-color: var(--notech-primary);
+ }
+ .service-details__points-icon-vertical span {
+   font-size: 30px;
+   color: var(--notech-white);
+   position: relative;
+   display: inline-block;
+ }
+ .service-details__points-icon-vertical {
+   height: 70px;
+   width: 70px;
+   background-color: var(--notech-base);
+   border-radius: 50%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
+/* ----------------------------------------------------------------------- end ------------------------------------------------------------------ */
+
+/* ---------- ---------------------------------  changes in css ========================= */
+
+
+.image-container-wrapper{
+  display: flex;
+  justify-content:center;
+   align-items:center
+}
+
+.image-container{
+  background-color:rgb(0, 200, 255);
+  width:200px;height:185px;
+   border-radius: 35px;
+}
+
+.image-container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
 .row {
   --bs-gutter-x: 30px;
 }
+
 
 .gutter-y-30 {
   --bs-gutter-y: 30px;
@@ -157,7 +286,7 @@ ul {
 }
 
 .carousel-dot-style-1 .owl-dots .owl-dot+.owl-dot {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 
 .carousel-dot-style-1 .owl-dots .owl-dot span {
@@ -7332,10 +7461,15 @@ ul {
   transition: all 500ms ease;
 }
 
-.team-one__single:hover .team-one__img img {
+.team-one__single:hover .team-one__img:not(.no-hover) img {
   mix-blend-mode: luminosity;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.team-one__single:hover img{
+  transform: scale(1.05);
+
 }
 
 .team-one__social {
@@ -9519,6 +9653,8 @@ ul {
   font-weight: 700;
 }
 
+
+
 .service-details__service-list {
   margin: 0;
 }
@@ -9630,6 +9766,27 @@ ul {
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
+
+.active-list .web-sub-list{
+  display: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+}
+
+.active-list .web-sub-list li{
+  list-style-type: none;
+}
+
+.active-list .web-sub-list li:hover{
+  background-color: #2be4ac !important;
+}
+
+.active-list:hover .web-sub-list   {
+  display: block;
+}
+
+
 
 .service-details__need-help-icon:hover {
   background-color: var(--notech-black);
@@ -9759,12 +9916,12 @@ ul {
   
 }
 
-.digital-content{
-  /* font-size: 20px; */
+ .para-content{
+  font-size: 18px;
   color: black;
   font-weight: 500;
   
-}
+} 
 
 .ui-ux-content{
   font-weight: 500;
@@ -9966,6 +10123,13 @@ ul {
   margin-top: -6px;
 }
 
+
+
+
+.our-benefits{
+  margin-top: 80px;
+}
+
 .service-details__benefits-title {
   font-size: 24px;
   font-weight: 700;
@@ -10133,6 +10297,20 @@ ul {
   margin: 0;
   line-height: 30px;
   margin-bottom: 10px;
+}
+
+  
+
+.active:hover .web-unordered-list{
+  display: block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  color: var(--notech-gray);
+  position: relative;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-weight: 400;
+  
 }
 
 /*--------------------------------------------------------------
