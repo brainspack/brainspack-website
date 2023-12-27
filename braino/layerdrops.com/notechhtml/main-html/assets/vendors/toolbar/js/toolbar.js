@@ -21,23 +21,28 @@
     });
   }
 
-  if ($("#colorMode").length) {
-    $("#colorMode").styleSwitcher({
-      hasPreview: false,
-      fullPath: "assets/css/",
-      defaultThemeId: 'jssMode',
-      cookie: {
-        expires: 999,
-        isManagingLoad: true
-      }
-    });
-  }
+  // if ($("#colorMode").length) {
+  //   $("#colorMode").styleSwitcher({
+  //     hasPreview: false,
+  //     fullPath: "assets/css/",
+  //     defaultThemeId: 'jssMode',
+  //     cookie: {
+  //       expires: 999,
+  //       isManagingLoad: true
+  //     }
+  //   });
+  // }
 
-  if ($(".style-switcher").length) {
-    $("#switcher-toggler").on("click", function (e) {
-      e.preventDefault();
-      $(".style-switcher").toggleClass("active");
-    });
-  }
+  // if ($(".style-switcher").length) {
+  //   $("#switcher-toggler").on("click", function (e) {
+  //     e.preventDefault();
+  //     $(".style-switcher").toggleClass("active");
+  //   });
+  // }
 
 })(jQuery);
+function myHash() {
+  $(document).ready(function () {
+              window.location.href="contact.html#link"
+  });
+}
