@@ -54,3 +54,11 @@ function myHash() {
 
   });
 }
+
+function ourTeam(){
+  $(document).ready(function () {
+            
+    window.location.href="about.html#team"
+
+});
+}

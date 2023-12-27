@@ -9767,26 +9767,6 @@ ul {
   transition: all 500ms ease;
 }
 
-.active-list .web-sub-list{
-  display: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 4px;
-}
-
-.active-list .web-sub-list li{
-  list-style-type: none;
-}
-
-.active-list .web-sub-list li:hover{
-  background-color: #2be4ac !important;
-}
-
-.active-list:hover .web-sub-list   {
-  display: block;
-}
-
-
 
 .service-details__need-help-icon:hover {
   background-color: var(--notech-black);
