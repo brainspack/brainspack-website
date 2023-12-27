@@ -746,7 +746,9 @@
     }
 
 
-
+.service-details__points-two-single {
+    margin-top: 40px;
+}
 
 
 
@@ -764,6 +766,9 @@
         font-size: 30px;
         line-height: 40px;
     }
+        .service-details__points-two-single {
+            margin-top: 50px;
+        }
 
     .feature-one__hover-content {
         display: flex;

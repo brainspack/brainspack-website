@@ -21,17 +21,17 @@
     });
   }
 
-  if ($("#colorMode").length) {
-    $("#colorMode").styleSwitcher({
-      hasPreview: false,
-      fullPath: "assets/css/",
-      defaultThemeId: 'jssMode',
-      cookie: {
-        expires: 999,
-        isManagingLoad: true
-      }
-    });
-  }
+  // if ($("#colorMode").length) {
+  //   $("#colorMode").styleSwitcher({
+  //     hasPreview: false,
+  //     fullPath: "assets/css/",
+  //     defaultThemeId: 'jssMode',
+  //     cookie: {
+  //       expires: 999,
+  //       isManagingLoad: true
+  //     }
+  //   });
+  // }
 
   // if ($(".style-switcher").length) {
   //   $("#switcher-toggler").on("click", function (e) {
