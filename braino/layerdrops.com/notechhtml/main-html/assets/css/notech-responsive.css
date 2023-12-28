@@ -744,15 +744,34 @@
         margin-top: 50px;
     }
 
+/* added */
 
 .service-details__points-two-single {
     margin-top: 40px;
 }
+.lang-icon-div{
+    margin-top:30px;
+}
+.service-details{
+    padding-top:30px;
+}
+/* end */
+/* development carousel  */
 
+.service-details__points_vertical li{
+    width:34%;
+}
 
-
-
-
+.service-details__benefits-right{
+    margin-top:0px;
+}
+.service-betails__benefits-text-1{
+    padding:10px 0px;
+}
+.service-details__points-title{
+    text-align: center;
+}
+/* end */
 
 }
 
@@ -1533,8 +1552,23 @@
     .checkout__payment__title {
         font-size: 18px;
     }
-
-
+/* web-development  */
+.service-details{
+    padding-top:50px;
+}
+.web-lang-heading{
+    height:100px;
+}
+.development-process{
+    text-align: center;
+}
+.service-details__points-title{
+padding-left: 0px;
+}
+/* web development end */
+.develop-service{
+    margin-bottom:50px;
+}
 
 
 }
