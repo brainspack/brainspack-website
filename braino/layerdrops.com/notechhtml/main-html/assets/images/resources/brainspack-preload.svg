@@ -28,7 +28,7 @@
 	.st0{fill:#55AD88;}
 	.st1{fill:#0CC676;}
 	.st2{fill:black;}
-	.st3{font-family:'ReemKufi-Regular';}
+	.st3{font-family:'Josefin Sans', sans-serif;}
 	.st4{font-size:164.8064px;}
 </style>
 <!-- <rect x="-9" y="-26" width="1983" height="1130"/> -->
@@ -112,11 +112,11 @@
      y="0"
      class="st2 st3 st4"
      id="tspan42">B R A I N S </tspan><tspan
-     x="830.45"
+     x="865.45"
      y="0"
      class="st0 st3 st4"
      id="tspan44">P </tspan><tspan
-     x="950.08"
+     x="1005"
      y="0"
      class="st2 st3 st4"
      id="tspan46">A C K</tspan></text>
