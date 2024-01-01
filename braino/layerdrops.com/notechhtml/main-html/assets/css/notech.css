@@ -69,7 +69,8 @@
   margin-bottom: 40px;
 }
 .development-process {
-  margin-bottom: 30px;
+  margin: 30px 0 30px;
+
 }
 .development-process h4 {
   font-size: 25px;
@@ -1078,10 +1079,14 @@ ul {
   padding: 20.5px 0;
   margin-right: 140px;
 }
+.brainspack-logo-header{
+margin-top:9px;
+width: 200px;
+}
 
 .brainspack-logo {
-  height: 80px;
-  width: 200px
+  /* height: 80px; */
+  width: 200px;
 }
 
 .main-menu__main-menu-box {
@@ -1316,7 +1321,11 @@ ul {
 .main-menu .main-menu__list>li:hover>a::before {
   background-color: var(--notech-base);
 }
-
+/* home */
+.home-tech-services{
+  margin-top:60px;
+}
+/* end */
 /* --------------------------------mean mern php li------------------------------------- */
 .web-sub-list {
   display: none;
@@ -3245,7 +3254,8 @@ ul {
 .get-to-know {
   position: relative;
   display: block;
-  padding: 0 0 120px;
+  /* padding: 0 0 120px; */
+  padding: 0 0 80px;
 }
 
 .get-to-know__left {
@@ -5103,7 +5113,7 @@ ul {
   position: relative;
   display: block;
   margin-right: 73px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
 }
 
 .footer-widget__logo {
@@ -10342,7 +10352,7 @@ ul {
   line-height: 26px;
   margin-top: 23px;
   margin-bottom: 15px;
-  padding-left:35px;
+  /* padding-left:35px; */
 }
 
 .service-details__points-text {
