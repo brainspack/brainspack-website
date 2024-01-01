@@ -7776,6 +7776,7 @@ width: 200px;
   display: block;
   overflow: hidden;
   background-color: var(--notech-black);
+  height: 383px;
 }
 
 .team-one__img img {
