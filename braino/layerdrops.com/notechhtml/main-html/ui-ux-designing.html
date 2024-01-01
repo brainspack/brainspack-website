@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- Mirrored from layerdrops.com/notechhtml/main-html/ui-ux-designing.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Oct 2023 12:25:48 GMT -->
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -166,7 +167,10 @@
                 <div class="main-header__top-right-social">
                   <!-- <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-facebook"></i></a> -->
-                  <a href="https://www.linkedin.com/company/brainspack/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+                  <a
+                    href="https://www.linkedin.com/company/brainspack/?originalSubdomain=in" target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
               </div>
@@ -179,9 +183,9 @@
               <div class="main-menu__logo">
                 <a href="index.html">
                   <img
-                    class="brainspack-logo"
-                    src="assets/images/resources/brainspack-revised.svg"
-                    alt=""
+                    class="brainspack-logo-header"
+                    src="assets/images/resources/final-header-brainspack-logo.svg"
+                    alt="brainspack-logo"
                   />
                   <!-- <img class="logo-dark" src="assets/images/resources/logo-1.png" alt="">
                                 <img class="logo-light" src="assets/images/resources/logo-2.png" alt=""> -->
@@ -313,7 +317,9 @@
                         <a href="ui-ux-designing.html">UI/UX Designing</a>
                       </li>
                       <li>
-                        <a href="mobile-application.html">Mobile App Development</a>
+                        <a href="mobile-application.html"
+                          >Mobile App Development</a
+                        >
                       </li>
                       <li>
                         <a href="digital-marketing.html">Digital Marketing</a>
@@ -441,19 +447,35 @@
                 <div class="service-details__service">
                   <h3 class="service-details__title">Services</h3>
                   <ul class="service-details__service-list list-unstyled">
-                    <li class="dropdown_menu dropdown_menu-1 ">
-                        <a href="web-development.html"
-                          >Web Development
-                          <span class="fa fa-long-arrow-alt-right"></span
-                        ></a>
-                        <!-- <li class="active active-list dropdown"><a href="web-development.html">Web development <span -->
-                        <!-- class="fa fa-long-arrow-alt-right"></span></a> -->
-                        <ul class="web-sub-list service-details__service-list">
-                          <li class="dropdown_item-1"><a href="mean.html">MEAN Stack<span class="fa fa-long-arrow-alt-right"></span></a></li>
-                          <li class="dropdown_item-2"><a href="mern.html">MERN Stack<span class="fa fa-long-arrow-alt-right"></span></a></li>
-                          <li class="dropdown_item-3"><a href="php.html">PHP<span class="fa fa-long-arrow-alt-right"></span></a></li>
-                        </ul>
-                      </li>
+                    <li class="dropdown_menu dropdown_menu-1">
+                      <a href="web-development.html"
+                        >Web Development
+                        <span class="fa fa-long-arrow-alt-right"></span
+                      ></a>
+                      <!-- <li class="active active-list dropdown"><a href="web-development.html">Web development <span -->
+                      <!-- class="fa fa-long-arrow-alt-right"></span></a> -->
+                      <ul class="web-sub-list service-details__service-list">
+                        <li class="dropdown_item-1">
+                          <a href="mean.html"
+                            >MEAN Stack<span
+                              class="fa fa-long-arrow-alt-right"
+                            ></span
+                          ></a>
+                        </li>
+                        <li class="dropdown_item-2">
+                          <a href="mern.html"
+                            >MERN Stack<span
+                              class="fa fa-long-arrow-alt-right"
+                            ></span
+                          ></a>
+                        </li>
+                        <li class="dropdown_item-3">
+                          <a href="php.html"
+                            >PHP<span class="fa fa-long-arrow-alt-right"></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </li>
 
                     <li class="active">
                       <a href="ui-ux-designing.html"
@@ -527,13 +549,15 @@
                     UI/UX designing
                   </h3>
                   <p>
-                    User Interface (UI) and User Experience (UX) collaboratively shape the 
-                    design and functionality of digital products. UI concentrates on visually
-                     appealing and intuitive elements, ensuring a seamless and aesthetically
-                      pleasing user interface. Conversely, UX centers on the overall user journey,
-                       striving for smooth interactions and heightened user satisfaction. 
-                       The synergy of UI/UX design seamlessly integrates aesthetics and functionality, 
-                       guiding users effortlessly through a product.
+                    User Interface (UI) and User Experience (UX) collaboratively
+                    shape the design and functionality of digital products. UI
+                    concentrates on visually appealing and intuitive elements,
+                    ensuring a seamless and aesthetically pleasing user
+                    interface. Conversely, UX centers on the overall user
+                    journey, striving for smooth interactions and heightened
+                    user satisfaction. The synergy of UI/UX design seamlessly
+                    integrates aesthetics and functionality, guiding users
+                    effortlessly through a product.
                   </p>
                   <!-- <p class="service-details__text-2 ui-ux-content">In the ever-evolving landscape, web designers leverage cutting-edge tools and frameworks,
                                      emphasizing user-centric approaches. Prototyping and wireframing refine concepts, while collaboration with developers ensures
@@ -1277,11 +1301,11 @@
                     <a href="index.html"
                       ><img
                         class="brainspack-logo"
-                        src="assets/images/resources/brainspack-logo-footer.svg"
-                        alt=""
+                        src="assets/images/resources/final-footer-brainspack-logo.svg"
+                        alt="brainspack-logo"
                     /></a>
                   </div>
-                  <div class="footer-widget__about-text-box">
+                  <!-- <div class="footer-widget__about-text-box">
                     <p class="footer-widget__about-text">
                       Subsrcibe for our upcoming latest articles and news
                       resources
@@ -1304,7 +1328,7 @@
                         />
                       </button>
                     </div>
-                  </form>
+                  </form> -->
                 </div>
               </div>
               <div
@@ -1319,7 +1343,7 @@
                     <li><a href="about.html">About us</a></li>
                     <li><a href="#" onclick="ourTeam()">Meet our team</a></li>
                     <!-- <li><a href="blog.html">News & media</a></li> -->
-                    <li><a href="projects-page-1.html">Our projects</a></li>
+                    <!-- <li><a href="projects-page-1.html">Our projects</a></li> -->
                     <li><a href="contact.html">Contacts</a></li>
                   </ul>
                 </div>
@@ -1362,9 +1386,12 @@
                       <div class="text">
                         <!-- <p>66 broklyn golden street line <br> new york</p> -->
                         <p>
-                          SCF-15, FIRST FLOOR, opposite Bus Stand Road, Sarojini
-                          Colony, PART-1, Model Town, Yamuna Nagar,<br />
-                          Haryana 135001
+                          <span class="contact-address"
+                            >SCF-15, First Floor,<br />
+                            opposite Bus Stand Road,<br />
+                            Sarojini Colony, PART-1,<br />
+                            Model Town, Yamuna Nagar, <br />Haryana 135001</span
+                          >
                         </p>
                       </div>
                     </li>
@@ -1381,7 +1408,10 @@
                   <div class="site-footer__social">
                     <!-- <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-facebook"></i></a> -->
-                    <a href="https://www.linkedin.com/company/brainspack/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+                    <a
+                      href="https://www.linkedin.com/company/brainspack/?originalSubdomain=in" target="_blank"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                   </div>
                 </div>
@@ -1442,7 +1472,10 @@
           <div class="mobile-nav__social">
             <!-- <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-facebook-square"></a> -->
-            <a href="https://www.linkedin.com/company/brainspack/?originalSubdomain=in" class="fa-brands fa-linkedin"></a>
+            <a
+              href="https://www.linkedin.com/company/brainspack/?originalSubdomain=in" target="_blank"
+              class="fa-brands fa-linkedin"
+            ></a>
             <a href="#" class="fab fa-instagram"></a>
           </div>
           <!-- /.mobile-nav__social -->

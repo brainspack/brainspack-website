@@ -1570,6 +1570,9 @@ padding-left: 0px;
 .develop-service{
     margin-bottom:50px;
 }
+.brainspack-logo-header{
+    margin-left: 20px;
+}
 
 
 }
@@ -2056,7 +2059,15 @@ padding-left: 0px;
         margin-bottom: 14px;
     }
 
+/* development-carousel  */
+.development-carousel-img-content{
+    width:300px;
+}
+.development-carousel-img-content p{
+    font-size:15px;
+    line-height: 20px;
 
+}
 
 
 
