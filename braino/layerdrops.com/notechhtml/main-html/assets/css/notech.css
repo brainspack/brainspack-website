@@ -53,7 +53,16 @@
   display: flex;
   justify-content: center;
 }
-
+.about-us h2{
+  margin-bottom: 20px;
+  color: white;
+}
+.about-us p{
+  color: white;
+}
+.about-us h2>span{
+  color: #55AD88;
+}
 
 /* ==============      NEW CHANGES   ==== */
 
