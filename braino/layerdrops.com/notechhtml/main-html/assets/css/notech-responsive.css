@@ -1573,7 +1573,9 @@ padding-left: 0px;
 .brainspack-logo-header{
     margin-left: 20px;
 }
-
+.owl-theme .owl-nav.disabled+.owl-dots{
+    display: none;
+}
 
 }
 
