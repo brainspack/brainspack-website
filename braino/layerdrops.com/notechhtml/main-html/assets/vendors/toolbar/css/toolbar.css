@@ -27,10 +27,9 @@
 	border-top-right-radius: var(--toolbar-border-radius);
 	border-bottom-right-radius: var(--toolbar-border-radius);
 }
-
-/* .style-switcher.active {
+.style-switcher.active {
 	transform: translateX(0%);
-} */
+}
 
 .style-switcher h3 {
 	margin: 0;
@@ -100,7 +99,24 @@
 	color: #fff;
 	background-color: var(--toolbar-black);
 }
+#switcher-toggler:hover .tooltiptext {
+	visibility: visible;
+}
+#switcher-toggler .tooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
 
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 130%;
+}
 #styleOptions {
 	margin: 0;
 	padding: 0;
@@ -133,4 +149,12 @@
 
 body {
 	top: auto !important;
+}
+
+
+
+#switcher-toggler:hover i::before{
+	/* content: 'contact now'; */
+	/* font-size: 15px; */
+
 }
