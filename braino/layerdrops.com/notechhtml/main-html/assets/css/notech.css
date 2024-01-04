@@ -64,16 +64,19 @@
   color: #55AD88;
 }
 
-/* ==============      NEW CHANGES   ==== */
+/* ----------------------new changes----------------- */
 
 
 .content-first{
   margin-bottom: 40px;
 }
+.about-service{
+  margin-bottom: 20px !important;
+}
 
-/* =============     END      ========= */
+/* -------------------------  END  ------------------- */
 
-/* ----------------------------------------------------------------- development-planing vertical ---------------------------------------------------------------------------------------- */
+/* -------------------------- development-planing vertical ------------------------------ */
 .content-first {
   margin-bottom: 40px;
 }
@@ -8102,11 +8105,12 @@ width: 200px;
 }
 
 .notech-more__left .section-title {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; changed*/  
 }
 
 .notech-more__text {
-  padding-bottom: 38px;
+  padding-bottom: 20px;
+  font-weight: bold;
 }
 
 .notech-more__points {
