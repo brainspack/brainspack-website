@@ -97,7 +97,7 @@
 
 #switcher-toggler:hover {
 	color: #fff;
-	background-color: var(--toolbar-black);
+	/* background-color: var(--toolbar-black); */
 }
 #switcher-toggler:hover .tooltiptext {
 	visibility: visible;
@@ -105,7 +105,7 @@
 #switcher-toggler .tooltiptext {
 	visibility: hidden;
 	width: 200px;
-	background-color: black;
+	background-color: #55AD88;
 	color: #fff;
 	text-align: center;
 	border-radius: 6px;
