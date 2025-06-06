@@ -974,65 +974,6 @@ $(document).ready(function () {
   });
 });
 
-// ---------------------------
-
-// $(document).ready(function () {
-//   const $projects = $(".project");
-//   let currentIndex = 0;
-//   let isMobileView = $(window).width() <= 768;
-//   let touchStartX = 0;
-//   let touchEndX = 0;
-
-//   function updateProjects(direction) {
-//     if (isMobileView) {
-//       $projects.each(function (index) {
-//         if (index === currentIndex) {
-//           $(this)
-//             .show()
-//             .animate({ opacity: 1 }, 300, function () {
-//               $(this).css("transform", "translateX(0)");
-//             });
-//         } else {
-//           $(this).animate({ opacity: 0 }, 200, function () {
-//             $(this).hide();
-//           });
-//         }
-//       });
-//     } else {
-//       $projects.show();
-//     }
-//   }
-
-//   function checkScreenSize() {
-//     isMobileView = $(window).width() <= 768;
-//     updateProjects();
-//   }
-
-//   checkScreenSize();
-//   $(window).resize(checkScreenSize);
-
-//   $(document).on("touchstart", function (e) {
-//     touchStartX = e.touches[0].clientX;
-//   });
-
-//   $(document).on("touchend", function (e) {
-//     touchEndX = e.changedTouches[0].clientX;
-//     handleSwipe();
-//   });
-
-//   function handleSwipe() {
-//     if (!isMobileView) return;
-//     const swipeThreshold = 100;
-//     if (touchStartX - touchEndX > swipeThreshold) {
-//       currentIndex = (currentIndex + 1) % $projects.length;
-//       updateProjects("next");
-//     } else if (touchEndX - touchStartX > swipeThreshold) {
-//       currentIndex = (currentIndex - 1 + $projects.length) % $projects.length;
-//       updateProjects("prev");
-//     }
-//   }
-// });
-
 $(document).ready(function () {
   const $projects = $(".project");
   const $dotsContainer = $(".dots-container");

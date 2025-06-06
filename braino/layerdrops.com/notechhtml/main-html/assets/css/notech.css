@@ -14026,6 +14026,7 @@ body.boxed-wrapper {
   color: white;
 }
 
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -14035,13 +14036,12 @@ body.boxed-wrapper {
 
 .project {
   background-color: #fff;
-  /* transition: transform 0.5s linear; */
   width: 290px;
   margin-bottom: 30px;
 }
 
-.project:hover {
-  transform: scale(1.05);
+.project-image:hover {
+  transform: scale(1.03);
 }
 
 .project-title {
@@ -14052,13 +14052,14 @@ body.boxed-wrapper {
 }
 
 .project-image {
+  transition: transform 0.3s ease-in-out;
   border-radius: 10px;
   width: 100%;
   height: 250px;
   object-fit: cover;
   object-position: top;
   border: 1px solid #ccc;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .technologies {
@@ -14106,30 +14107,28 @@ body.boxed-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .project-slides {
   width: 100%;
   height: 600px;
-  /* max-width: 1200px; */
+  position: relative;
+  max-width: auto;
   display: flex;
   justify-content: center;
   background: #fff;
-  padding: 40px;
-  position: relative;
 }
 
 .slides-grid {
   display: flex;
-  width: 75%;
+  width: 80%;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid #40a27c; */
 }
 
 .content {
-  max-width: 38%;
+  max-width: 43%;
+  height: 72%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -14143,6 +14142,8 @@ body.boxed-wrapper {
 }
 
 .content p {
+  width: 90%;
+  height: 45%;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -14155,32 +14156,60 @@ body.boxed-wrapper {
   color: white;
 }
 
-.btn {
-  width: 150px;
-  display: inline-block;
-  /* margin-left: 15px; */
-  padding: 10px 15px;
-  background: #40a27c;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
+
+.opacity-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background: rgb(187, 223, 209, 0.2);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
-.btn:hover {
-  background: #317a5e;
+.opacity-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-image-two {
+  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/background-1.png");
+  background-size: cover;
+}
+
+.bg-image-three {
+  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/ba.png");
+  background-size: cover;
+}
+
+.bg-image-four {
+  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/background-1.png");
+  background-size: cover;
+}
+
+.bg-image-six {
+  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/ba.png");
+  background-size: cover;
 }
 
 .image-container {
-  width: 100%;
+  width: 50%;
   max-width: 390px;
-  height: 438px;
+  height: 440px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-  /* border: 1px solid blue; */
   position: relative;
   border-radius: 10px;
 }
+
 
 .small-image {
   width: 250px;
@@ -14191,42 +14220,42 @@ body.boxed-wrapper {
 }
 
 .small-image-one {
-  bottom: 10px;
+  bottom: 15px;
   left: 250px;
   object-fit: cover;
   object-position: 0px 92%;
 }
 
 .small-image-two {
-  bottom: 10px;
+  bottom: 15px;
   right: 250px;
   object-fit: cover;
   object-position: 0px 50%;
 }
 
 .small-image-three {
-  bottom: 10px;
+  bottom: 15px;
   left: 250px;
   object-fit: cover;
   object-position: 0px 85%;
 }
 
 .small-image-four {
-  bottom: 10px;
+  bottom: 15px;
   right: 250px;
   object-fit: cover;
   object-position: 0px 100%;
 }
 
 .small-image-five {
-  bottom: 10px;
+  bottom: 15px;
   left: 250px;
   object-fit: cover;
   object-position: 0px 59%;
 }
 
 .small-image-six {
-  bottom: 10px;
+  bottom: 15px;
   right: 250px;
   object-fit: cover;
   object-position: 0px 100%;
@@ -14277,46 +14306,6 @@ body.boxed-wrapper {
   height: 40px;
   margin-bottom: 10px;
 }
-
-/* .footer-btn {
-  background-color: #35a083;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
-.footer-column {
-  max-width: 250px;
-}
-.footer-logo {
-  width: 150px;
-  margin-bottom: 15px;
-}
-.footer-title {
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 15px;
-  color: white;
-}
-.footer-list {
-  list-style: none;
-  padding: 0;
-  font-size: 14px;
-}
-.footer-list li a {
-  color: white;
-  text-decoration: none;
-}
-.footer-text {
-  font-size: 14px;
-  line-height: 1.6;
-} */
 
 /* Footer General Styling */
 body {
@@ -14490,313 +14479,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.category-container {
-  display: flex;
-  border: 1px dotted #bebebe;
-  border-radius: 5px;
-  /* overflow: hidden; */
-  width: max-content;
-  margin-top: 50px;
-}
-
-.category {
-  padding: 10px 40px;
-  border-right: 1px dotted #ddd;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: #fff;
-  color: #000;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.category:last-child {
-  border-right: none;
-}
-
-.category.active {
-  background-color: #40a27c;
-  color: white;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  width: max-content;
-}
-
-.project {
-  background-color: #fff;
-  transition: transform 0.3s ease-in-out;
-  width: 290px;
-  margin-bottom: 30px;
-}
-
-.project:hover {
-  transform: scale(1.05);
-}
-
-.project-title {
-  padding: 15px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: left;
-}
-
-.project-image {
-  border-radius: 10px;
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  object-position: top;
-  border: 1px solid #ccc;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.technologies {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  gap: 8px;
-  /* padding-left: 10px; */
-  /* border: 1px solid red; */
-}
-
-.circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.slides-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* border: 1px solid red; */
-}
-
-.project-slides {
-  width: 100%;
-  height: 600px;
-  position: relative;
-  /* max-width: 1200px; */
-  display: flex;
-  justify-content: center;
-  background: #fff;
-  padding: 40px;
-}
-
-.slides-grid {
-  display: flex;
-  width: 75%;
-  justify-content: space-between;
-  align-items: center;
-  /* border: 1px solid #40a27c; */
-}
-
-.content {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-}
-
-.content h2 {
-  font-size: 24px;
-  font-weight: bold;
-  color: inherit;
-  /* margin-bottom: 15px; */
-}
-
-.content p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.black-font {
-  color: #555;
-}
-
-.white-font {
-  color: white;
-}
-
-.btn {
-  width: 150px;
-  display: inline-block;
-  /* margin-left: 15px; */
-  padding: 10px 15px;
-  background: #40a27c;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.btn:hover {
-  background: #317a5e;
-}
-
-.image-container {
-  width: 100%;
-  max-width: 390px;
-  height: 438px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-  /* border: 1px solid blue; */
-  position: relative;
-  border-radius: 10px;
-}
-
-.small-image {
-  width: 250px;
-  height: 230px;
-  border: 2px solid white;
-  position: absolute;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-}
-
-.small-image-one {
-  bottom: 10px;
-  left: 250px;
-  object-fit: cover;
-  object-position: 0px 92%;
-}
-
-.small-image-two {
-  bottom: 10px;
-  right: 250px;
-  object-fit: cover;
-  object-position: 0px 50%;
-}
-
-.small-image-three {
-  bottom: 10px;
-  left: 250px;
-  object-fit: cover;
-  object-position: 0px 85%;
-}
-
-.small-image-four {
-  bottom: 10px;
-  right: 250px;
-  object-fit: cover;
-  object-position: 0px 100%;
-}
-
-.small-image-five {
-  bottom: 10px;
-  left: 250px;
-  object-fit: cover;
-  object-position: 0px 59%;
-}
-
-.small-image-six {
-  bottom: 10px;
-  right: 250px;
-  object-fit: cover;
-  object-position: 0px 100%;
-}
-
-.slides-images {
-  width: 100%;
-  max-width: 390px;
-  height: 438px;
-  border-radius: 10px;
-  object-fit: cover;
-  object-position: top;
-  border: 2px solid white;
-}
-
-.logo-one {
-  width: 250px;
-  height: 25px;
-  margin-bottom: 10px;
-}
-
-.logo-two {
-  width: 300px;
-  margin-bottom: 10px;
-  height: 30px;
-}
-
-.logo-three {
-  width: 200px;
-  margin-bottom: 10px;
-  height: 27px;
-}
-
-.logo-four {
-  width: 150px;
-  height: 65px;
-  margin-bottom: 10px;
-}
-
-.logo-five {
-  width: 190px;
-  height: 50px;
-  margin-bottom: 10px;
-}
-
-.logo-six {
-  width: 150px;
-  height: 40px;
-  margin-bottom: 10px;
-}
-
-.opacity-white {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 600px;
-  background: rgba(255, 255, 255, 0.5);
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.opacity-black {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 600px;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.bg-image-two {
-  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/background-1.png");
-  background-size: cover;
-  position: relative;
-}
-
-.bg-image-three {
-  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/ba.png");
-  background-size: cover;
-}
-
-.bg-image-four {
-  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/background-1.png");
-  background-size: cover;
-}
-
-.bg-image-six {
-  background-image: url("/brainspack-website/braino/layerdrops.com/notechhtml/main-html/assets/images/projects-images/projects-background/ba.png");
-  background-size: cover;
 }
 
 /* Footer General Styling */
