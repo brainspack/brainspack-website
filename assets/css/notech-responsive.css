@@ -152,7 +152,7 @@
     margin-right: 0;
   }
 
-  .counter-two__single+.counter-two__single {
+  .counter-two__single + .counter-two__single {
     margin-left: 0;
   }
 
@@ -263,7 +263,7 @@
     margin-top: 41px;
   }
 
-  .blog-details__pagenation li+li {
+  .blog-details__pagenation li + li {
     margin-left: 0;
     margin-top: 30px;
   }
@@ -540,7 +540,7 @@
     justify-content: center;
   }
 
-  .counter-two__single+.counter-two__single {
+  .counter-two__single + .counter-two__single {
     margin-left: 0px;
   }
 
@@ -646,7 +646,7 @@
     right: -25px;
   }
 
-  .project-details__details li+li {
+  .project-details__details li + li {
     margin-left: 50px;
   }
 
@@ -655,7 +655,7 @@
     margin-top: 41px;
   }
 
-  .blog-details__pagenation li+li {
+  .blog-details__pagenation li + li {
     margin-left: 0;
     margin-top: 30px;
   }
@@ -1043,7 +1043,7 @@
     flex-direction: column;
   }
 
-  .why-choose-one__tab-box .tab-buttons .tab-btn+.tab-btn {
+  .why-choose-one__tab-box .tab-buttons .tab-btn + .tab-btn {
     margin-left: 0;
     margin-top: 20px;
   }
@@ -1112,7 +1112,7 @@
     position: relative;
   }
 
-  .counter-two__single+.counter-two__single {
+  .counter-two__single + .counter-two__single {
     margin-left: 0px;
   }
 
@@ -1254,7 +1254,7 @@
     max-width: 100%;
   }
 
-  .service-details__points li+li {
+  .service-details__points li + li {
     margin-top: 21px;
   }
 
@@ -1287,7 +1287,7 @@
     display: none;
   }
 
-  .project-details__details li+li {
+  .project-details__details li + li {
     margin-left: 0;
     margin-top: 11px;
   }
@@ -1334,7 +1334,7 @@
     margin-top: 25px;
   }
 
-  .blog-details__pagenation li+li {
+  .blog-details__pagenation li + li {
     margin-left: 0;
     margin-top: 30px;
   }
@@ -1572,7 +1572,7 @@
     margin-left: 20px;
   }
 
-  .owl-theme .owl-nav.disabled+.owl-dots {
+  .owl-theme .owl-nav.disabled + .owl-dots {
     display: none;
   }
 }
@@ -1954,7 +1954,7 @@
     line-height: 20px;
   }
 
-  .our-mission-vision>p {
+  .our-mission-vision > p {
     font-size: 30px;
   }
 

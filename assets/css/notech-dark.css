@@ -167,7 +167,7 @@ body,
 
 .blog-one__single:hover .blog-one__content {
   -webkit-box-shadow: 0px 10px 60px 0px rgba(255, 255, 255, 0.03);
-          box-shadow: 0px 10px 60px 0px rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 10px 60px 0px rgba(255, 255, 255, 0.03);
 }
 
 .project-two:before {
